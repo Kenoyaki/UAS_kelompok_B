@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{anhar2024analisis}
+Firmansyah~Firdaus Anhar, Made Hanindia~Prami Swari, and Firza~Prima Aditiawan.
+\newblock Analisis perbandingan implementasi clean architecture menggunakan
+  mvp, mvi, dan mvvm pada pengembangan aplikasi android native.
+\newblock {\em Jupiter: Publikasi Ilmu Keteknikan Industri, Teknik Elektro dan
+  Informatika}, 2(2):181--191, 2024.
+
+\bibitem{arif2021optimasi}
+Muh Alif Al~Gibran Arif, Dana~Sulistyo Kusumo, and Shinta~Yulia Puspitasari.
+\newblock Optimasi pengembangan aplikasi cross-platform berbasis flutter
+  menggunakan pendekatan arsitektur model mvi (model-view-intent).
+\newblock {\em eProceedings of Engineering}, 8(5), 2021.
+
+\bibitem{maulana2022aplikasi}
+Fikri Maulana, Rita Afyenni, and Aldo Erianda.
+\newblock Aplikasi manajemen laboratorium menggunakan metode mvvm berbasis
+  android.
+\newblock {\em JITSI: Jurnal Ilmiah Teknologi Sistem Informasi}, 3(3):88--93,
+  2022.
+
+\bibitem{nunkesser2023choosing}
+Robin Nunkesser.
+\newblock Choosing a global architecture for mobile applications.
+\newblock {\em Authorea Preprints}, 2023.
+
+\bibitem{rasyid2022sistem}
+Naufal Rasyid and Aaqila~Dhiyaanisafa Goenawan.
+\newblock Sistem pencatatan keuangan aplikasi android dengan menggunakan design
+  pattern model-view-view-model (mvvm), room database, sharedpreference dan
+  api.
+\newblock {\em Jurnal Teknik Mesin, Industri, Elektro dan Informatika},
+  1(2):52--63, 2022.
+
+\bibitem{saputro2020implementasi}
+Yudistiro~Septian Saputro et~al.
+\newblock {\em IMPLEMENTASI ANDROID ARCHITECTURE COMPONENTS DENGAN PATTERN MVVM
+  (MODEL-VIEW-VIEW MODEL) PADA APLIKASI PELAPORAN KEMISKINAN DI KABUPATEN
+  BANTUL}.
+\newblock PhD thesis, STMIK AKAKOM Yogyakarta, 2020.
+
+\end{thebibliography}
