@@ -57,10 +57,16 @@ MVI, MVVM, pola arsitektur, evaluasi kinerja, kecepatan, memori.
 \end{IEEEkeywords}
 
 \section{Pendahuluan}
+
+\textbf{\textcolor{red}{Pendahuluan kurang panjang, tambahkan seperti sejarah MVVM sejarah MVI ataupun hal lain sebagai landasan mengapa penelitian ini dilakukan}}
+
 Dalam pengembangan perangkat lunak, pemilihan pola arsitektur yang tepat memainkan peran krusial dalam menentukan kualitas, keterbacaan, dan kinerja keseluruhan aplikasi. Dua pola arsitektur yang sering dibandingkan adalah Model-View-Intent (MVI) dan Model-View-ViewModel (MVVM). MVI menekankan pada unidirectional data flow dan pengelolaan kejadian (events), sementara MVVM fokus pada pemisahan antara tampilan (view) dan 
 logika bisnis (view model). \\
 \indent Penelitian ini bertujuan untuk mengidentifikasi dan memahami perbedaan kinerja antara MVI dan MVVM dalam konteks pengembangan aplikasi Android. Tujuan utama dari eksperimen ini adalah untuk mengevaluasi dan membandingkan performa kedua pola arsitektur tersebut dalam aspek kecepatan dan penggunaan memori. Dengan pemahaman yang mendalam tentang kelebihan dan kekurangan masing-masing pendekatan, pengembang perangkat lunak akan dapat membuat keputusan yang lebih terinformasi dalam memilih pola arsitektur yang sesuai dengan kebutuhan aplikasi mereka. \\
 \indent Melalui eksperimen ini, kami berharap dapat memberikan kontribusi yang berharga dalam penelitian tentang pola arsitektur perangkat lunak dan membantu pengembang untuk memilih pola arsitektur yang optimal sesuai dengan tujuan dan karakteristik proyek mereka.
+
+
+\textbf{\textcolor{red}{Hindari pengunaan kata saya, kami, sebaiknya gunakan kata penulis}}
 
 
 \section{Kajian Terkait}
@@ -82,7 +88,10 @@ logika bisnis (view model). \\
 \indent Salah satu keunggulan utama dari MVI adalah penerapan prinsip Single Source of Truth (SSOT), di mana kode inti ditempatkan dalam satu file. Hal ini menyebabkan penulisan program yang lebih sederhana dan dapat dimodifikasi dengan mudah, serta memastikan bahwa semua data dapat diakses dengan tepat, yang nantinya akan mempermudah proses perawatan (maintenance) di masa mendatang.\cite{arif2021optimasi}.MVI memiliki keunggulan yang unik dalam konsep Separation of Concernsnya, yang memungkinkan penyederhanaan manajemen keadaan (state management) dalam aplikasi program.
 
 \subsection{MVVM}
-\indent Model-View-View-Model (MVVM) adalah paradigma desain arsitektur baru untuk menangani persetujuan pengguna saat mengembangkan aplikasi Android yang berfungsi sebagai antarmuka pengguna (back-end). MVVM juga merupakan varian modern dari Model-View-Controller (MVC) dan tujuan intinya adalah memisahkan antara komponen Model dan komponen View\cite{rasyid2022sistem}. Sejak Google pertama kali mengumumkan MVVM pada Google I/O 2018, Google selalu mendorong setiap developer untuk mengerjakan aplikasi Android Studio.\cite{maulana2022aplikasi}
+
+
+
+\indent Model-View-View-Model (MVVM) adalah paradigma desain arsitektur baru untuk menangani persetujuan pengguna saat mengembangkan aplikasi Android yang berfungsi sebagai antarmuka pengguna (back-end \textbf{\textcolor{red}{antarmuka pengguna itu front end...}}). MVVM juga merupakan varian modern dari Model-View-Controller (MVC) dan tujuan intinya adalah memisahkan antara komponen Model dan komponen View\cite{rasyid2022sistem}. Sejak Google pertama kali mengumumkan MVVM pada Google I/O 2018, Google selalu mendorong setiap developer untuk mengerjakan aplikasi Android Studio.\cite{maulana2022aplikasi}
 
 \indent ViewModel tidak dapat ditansaksikan. Hal ini memberikan konsekuensi dimana state dari View (secara design) tidak dapat dicopy atau didistribusikan \cite{saputro2020implementasi}. Oleh karena itu merepresentasikan ulang state dari View bisa menjadi sebuah tantangan. Walaupun secara teknis hal ini dapat dilakukan, Akan tetapi menggunakan Shared ViewModel yang Mutable membuat source of truth dipertanyakan kebenarannya.
 
